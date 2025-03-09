@@ -1,0 +1,22 @@
+{
+  "name": "handpose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "ml5": "^1.2.1",
+    "p5": "^1.11.3",
+    "tsparticles": "^3.8.1"
+  }
+}
